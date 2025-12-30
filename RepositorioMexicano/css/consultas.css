@@ -1,0 +1,199 @@
+body{
+    background-image: url(../img/fondoMain.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    color: white;
+    height: 25vh;
+}
+
+header #menu{
+    background-image: url(../img/logo.png);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background-image: url(../img/logoMenu.png);
+    
+}
+
+header #menu ul li{
+   display: inline-block;
+   padding: 10px;
+   vertical-align: middle;
+   padding: 0;
+    
+}
+
+header #menu ul li a{
+     display: inline-block;
+    
+}
+header #menu ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+header #menu ul li a:hover{
+    text-decoration: underline;
+}
+
+header #menu ul #logo{
+    margin-right: 3%;
+    margin-left: 0px;
+    background-image: url(../img/logoMenu.png);
+    height: 116.5px;
+    
+}
+
+
+
+
+
+#busqueda 
+{
+    width: 300px; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 15px; 
+    box-sizing: border-box; 
+}
+
+#busqueda:focus
+{
+    outline: none; 
+    border-color: #FF7733;
+}
+
+
+
+#main-container header main{
+    margin: 0 auto;
+    width: 1400px;
+}
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{   
+    font-size: 80px;
+    color: #72C32E;
+    background-color: #fff;
+}
+
+#main-container header main .text p{   
+    font-size: 24px;
+    padding: 20px 0;
+    color: #72C32E;
+    background-color: #fff;
+}
+
+button{
+    background: #72C32E;
+    border: 0;
+    border-radius:  3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background: #72C32E;
+}
+
+#main-container header main .image{   
+    text-align: right;
+    width: 700px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.layout{
+    width: 1280px;
+    margin: 250px auto;
+}
+
+#main-container .section .layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container .section .layout h3{
+    font-size: 48px;
+    padding: 25px 0;
+}
+
+#main-container .section .layout p{
+    padding: 25px 0;
+    line-height: 32px;
+}
+
+#main-container .section .layout-left .text{
+    width: 500px;
+}
+
+#main-container .section .layout-left .image{
+    width: 770px;
+    text-align: right;
+}
+
+#main-container .section .layout-right .text{
+    width: 500px;
+}
+
+#main-container .section .layout-right .image{
+    width: 770px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #FF5733; 
+    color: white; 
+}
+
+table, th, td {
+    border: 1px solid white; 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #FF7733; 
+}
+
+tr:nth-child(odd) {
+    background-color: #FF794D;
+}
+
+footer
+            {
+                background-image: url(../img/bradcam2f.png);
+                color: white;
+                padding: 150px 20px;
+                text-align: center;
+            }
